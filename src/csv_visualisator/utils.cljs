@@ -6,5 +6,3 @@
   (and check?
        (or (cstr/blank? val)
            (re-find #"\D" val)))) ;; match non-digit
-
-
