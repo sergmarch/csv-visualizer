@@ -11,7 +11,7 @@
 
 
 (rum/defc static []
-  [:div {:class "ST"}
+  [:div {:class "STR"}
     [:p "Static page"]])
 
 (rum/defc app < rum/reactive
