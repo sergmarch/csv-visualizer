@@ -9,6 +9,11 @@
 
 (enable-console-print!)
 
+
+(rum/defc static []
+  [:div {:class "ST"}
+    [:p "Static page"]])
+
 (rum/defc app < rum/reactive
   []
   (let [state (rum/react app-state) ;; for reactive component
